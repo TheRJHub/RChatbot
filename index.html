@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RChatbot Pro 🚀</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-layout-container">
+        
+        <div class="chat-container">
+
+            <header class="header">
+                <h2>RChatbot Pro</h2>
+                <div class="header-controls">
+                    <button id="clear-history" title="Clear Chat History" class="icon-btn">🗑️</button>
+                    <button id="theme-toggle" title="Toggle Dark/Light Mode" class="icon-btn">🌙</button>
+                </div>
+            </header>
+
+            <div class="chat-box" id="chat-box"></div>
+
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Ask RChatbot a question..." autocomplete="off">
+                <button id="send-btn" title="Send Message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+
+            <footer class="chatbot-footer">
+                Done By **D Rajat Kumar**
+            </footer>
+
+        </div>
+        
+        <div class="feedback-panel">
+            <div class="panel-card">
+                <h3><i class="fas fa-bug"></i> Report an Issue</h3>
+                <p>If you encounter any errors (like the Status 400 error) or unexpected behavior, please use the link below to help us fix it quickly.</p>
+
+                <a href="#" target="_blank" class="feedback-link">
+                    <i class="fas fa-external-link-alt"></i> Submit Bug/Feedback Form
+                </a>
+                
+                <p class="disclaimer">Thank you for helping us make RChatbot Pro top-notch!</p>
+            </div>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
