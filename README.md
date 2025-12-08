@@ -1,0 +1,1 @@
+RChatbot is a web-based AI chatbot built with HTML, CSS, and JavaScript, powered by Google’s Gemini API. It allows users to have real-time, intelligent conversations with an AI assistant. Features include a clean and responsive UI, dynamic message display, and smooth integration with the Gemini API for context-aware replies.
